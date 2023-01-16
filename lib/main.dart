@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:pulgin_use_project/page_view/first_screen.dart';
 
-import 'circular_percentage_indicator_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,8 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const CircularPercentageIndicatorScreen(),
-      // home: const SwipeScreen(),
+      home: const FirstScreen(),
     );
   }
 }
