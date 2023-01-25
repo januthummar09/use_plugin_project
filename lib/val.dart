@@ -14,12 +14,12 @@ class _ValState extends State<Val> {
 
   @override
   Widget build(BuildContext context) {
-    bool isIcon = true;
+    // bool isIcon = true;
     dynamic obscureText = true;
     Size size = MediaQuery.of(context).size;
     double heigth = size.height;
-    double widget = size.width;
-    double text = MediaQuery.textScaleFactorOf(context);
+    // double widget = size.width;
+    // double text = MediaQuery.textScaleFactorOf(context);
     return Scaffold(
       appBar: AppBar(
         title: const Text("User Form"),

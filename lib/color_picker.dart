@@ -41,15 +41,15 @@ class _ColorPickerPluginsState extends State<ColorPickerPlugins> {
             children: [
               TextButton(
                 onPressed: () => _controller.color = Colors.blue,
-                child: Text('BLUE', style: TextStyle(color: Colors.blue)),
+                child: const Text('BLUE', style: TextStyle(color: Colors.blue)),
               ),
               TextButton(
                 onPressed: () => _controller.color = Colors.green,
-                child: Text('GREEN', style: TextStyle(color: Colors.green)),
+                child: const Text('GREEN', style: TextStyle(color: Colors.green)),
               ),
               TextButton(
                 onPressed: () => _controller.color = Colors.red,
-                child: Text('RED', style: TextStyle(color: Colors.red)),
+                child: const Text('RED', style: TextStyle(color: Colors.red)),
               ),
             ],
           ),

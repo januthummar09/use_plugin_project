@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pulgin_use_project/page_view/first_screen.dart';
 
+import 'image_picker_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const FirstScreen(),
+      home: const ImagePickerScreen(),
     );
   }
 }

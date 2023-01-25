@@ -203,6 +203,19 @@ class _PinCodeVerificationScreenState extends State<PinCodeVerificationScreen> {
               Container(
                 margin:
                     const EdgeInsets.symmetric(vertical: 16.0, horizontal: 30),
+                decoration: BoxDecoration(
+                    color: Colors.green.shade300,
+                    borderRadius: BorderRadius.circular(5),
+                    boxShadow: [
+                      BoxShadow(
+                          color: Colors.green.shade200,
+                          offset: const Offset(1, -2),
+                          blurRadius: 5),
+                      BoxShadow(
+                          color: Colors.green.shade200,
+                          offset: const Offset(-1, 2),
+                          blurRadius: 5)
+                    ]),
                 child: ButtonTheme(
                   height: 50,
                   child: TextButton(
@@ -232,19 +245,6 @@ class _PinCodeVerificationScreenState extends State<PinCodeVerificationScreen> {
                     )),
                   ),
                 ),
-                decoration: BoxDecoration(
-                    color: Colors.green.shade300,
-                    borderRadius: BorderRadius.circular(5),
-                    boxShadow: [
-                      BoxShadow(
-                          color: Colors.green.shade200,
-                          offset: const Offset(1, -2),
-                          blurRadius: 5),
-                      BoxShadow(
-                          color: Colors.green.shade200,
-                          offset: const Offset(-1, 2),
-                          blurRadius: 5)
-                    ]),
               ),
               const SizedBox(
                 height: 16,

@@ -11,7 +11,7 @@ class DatePicker extends StatefulWidget {
 
 class _DatePickerState extends State<DatePicker> {
 //  final  Color CircleColorPicker=Colors.amber;
-  Color _currentColor = Colors.pink;
+  Color currentColor = Colors.pink;
   final _controller = CircleColorPickerController(
     initialColor: Colors.yellow,
   );
@@ -65,12 +65,12 @@ class _DatePickerState extends State<DatePicker> {
                   child: CircleColorPicker(
                     controller: _controller,
                     onChanged: (color) {
-                      setState(() => _currentColor = color);
+                      setState(() => currentColor = color);
                     },
                   ),
                 );
               },
-              child: Text("color"),
+              child: const Text("color"),
             ),
           ],
         ),
